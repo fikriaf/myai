@@ -1,0 +1,9 @@
+pyttsx3
+deepface
+opencv-python
+numpy
+pandas
+requests
+beautifulsoup4
+spotipy
+pytube
