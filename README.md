@@ -4,10 +4,13 @@ MyAI is an AI project with multiple functionalities, including audio recognition
 
 ## Features
 
-- **Audio Recognition**: Processes and analyzes audio input.  
-- **Face Analysis**: Uses `deepface` for face detection and recognition.  
-- **Spotify & YouTube Integration**: Supports related features like downloading or analyzing content.  
-- **Plagiarism Detection**: Checks text similarity for possible plagiarism.  
+- **Audio Recognition**: Ability to recognize and process audio input, likely using libraries like `pyttsx3`.
+- **Face Analysis**: Utilizes the `deepface` library for detecting and recognizing faces in images or videos.
+- **Spotify & YouTube Integration**: Supports integration with Spotify and YouTube, such as downloading or analyzing content.
+- **Plagiarism Detection**: Module to check text similarity and detect potential plagiarism.
+- **Microphone Input Handling**: Capable of receiving and processing live microphone input for real-time interaction.
+- **Identity Detection**: Enables identity detection based on given data, potentially through face or voice analysis.
+- **YouTube Downloader (dlyt)**: Script or module for downloading videos from YouTube for offline analysis or use.
 
 ## Installation
 
