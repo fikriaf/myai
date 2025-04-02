@@ -33,6 +33,8 @@ from Plagiarisme import CekPlag
 import subprocess
 import pyperclip
 
+username_collabor = ""
+pass_collabor = ""
 
 def klik(x, y):
     pyautogui.click(x, y)
@@ -385,10 +387,10 @@ def colabor():
     pyautogui.press('enter')
     time.sleep(3)
     klik(300, 390)
-    pyautogui.typewrite("2023071018")
+    pyautogui.typewrite(username_collabor)
     time.sleep(1)
     klik(300, 450)
-    pyperclip.copy("Alkhamdulillah27@")
+    pyperclip.copy(pass_collabor)
     pyautogui.hotkey("ctrl", "v")
     time.sleep(3)
     pyautogui.press('enter')
